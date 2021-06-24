@@ -1,0 +1,385 @@
+body{
+    font-family: calibri, sans-serif;
+    font-size: 20px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    float: left;
+}
+.header{
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    width: 50%;
+}
+.logo img{
+    width: 236px;
+}
+.contact-info{
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 15px;
+}
+.contact-info ul li{
+    display: inline-block;
+    font-size: 20px;
+}
+.contact-info img{
+    width: 22px;
+    margin-right: 5px;
+}
+.banner{
+    background-image: url(../images/parallax-bg.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+}
+.banner1{
+    width: 60%;
+    float: left;
+}
+.banner2{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+}
+.banner1 h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.banner1 p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.banner1 h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.banner1 ul li{
+    font-size: 24px;
+    margin-left: 40px;
+    margin-bottom: 8px;
+}
+,.banner1 ul{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.form{
+    background-color: rgba(0, 0, 0,0.6);
+    padding: 20px;
+    border-radius: 5px;
+}
+.form h3{
+    color: white;
+    font-size: 30px;
+}
+.btn-style{
+    background-color: #f5233e;
+	color: white;
+	border: 1px solid #f5233e;
+	padding: 10px 30px;
+	font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.form h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.form-control{
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.form label{
+    color: white;
+    font-size: 18px;
+}
+.course-info1{
+    width: 23.5%;
+    float: left;
+    box-shadow: 0 0 15px 1px rgb(0 0 0 / 15%);
+    padding: 10px 20px;
+    margin-right: 2%;
+}
+.icon{
+    float: left;
+    width: 15%;
+}
+.icon img{
+    width: 50px;
+}
+.content{
+    width: 85%;
+    float: left;
+    text-align: center;
+}
+.content p{
+    font-size: 18px;
+}
+.content h5{
+    font-size: 18px;
+}
+.mr-0{
+    margin-right: 0px !important;
+}
+.web-design{
+    padding: 50px 0px;
+}
+.web-design1{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.web-design2{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.web-design3{
+    width: 100%;
+    float: left;
+}
+.web-design3 p{
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.web-design1 h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.web-design1 p{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 18px;
+}
+.web-design-box{
+    float: left;
+    width: 23.5%;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 25%);
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 7px;
+    border-top: 3px solid orange;
+    margin-top: 50px;
+    margin-right: 2%;
+    height: 245px;
+}
+.green-border{
+    border-color: green;
+}
+.red-border{
+    border-color: red;
+}
+.blue-border{
+    border-color: rgb(14, 127, 233);
+}
+.web-design-box img{
+    width: 75px;
+    margin-bottom: 10px;
+}
+.web-design-box h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.web-design-box p{
+    font-size: 16px;
+}
+.benifits{
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.benifits1{
+    width: 66%;
+    float: left;
+}
+.benifits2{
+    width: 34%;
+    float: left;
+}
+.benifits1 h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.benifits1 ul li{
+    list-style: outside disc!important;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.benifits2 img{
+    max-width: 100%;
+    width: 100%;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 25%);
+}
+.careers{
+    width: 100%;
+    float: left;
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+    padding: 35px 0px;
+}
+.careers1{
+    width: 83.33333333%;
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.careers1 h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.careers1 p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+.career-box{
+    width: 14.66%;
+    float: left;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 25%);
+    margin-right: 2%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 74px;
+}
+.testimonial{
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+}
+.testimonial h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.testimonial1 p{
+    text-align: center;
+    margin-bottom: 50px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.testimonia2 p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.author{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #444;
+    font-weight: 600;
+    float: right;
+}
+.testimonial-box{
+    padding: 1.5%;
+    border: 1px solid #ddd;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 23%;
+    margin: 1%;
+    box-shadow: 1px 2px 6px rgb(154 154 154 / 25%);
+    min-height: 250px;
+    float: left;
+}
+.address1{
+    text-align: center;
+}
+.address1 h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.address1 p{
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.footer{
+    background: #252525;
+    padding: 6px 0;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    float: left;
+}
+.footer1{
+    width: 50%;
+    float: left;
+}
+.footer1 p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+}
+.footer2{
+    width: 50%;
+    float: right;
+}
+.footer2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: right;
+}
